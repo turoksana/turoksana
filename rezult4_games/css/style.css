@@ -1,0 +1,46 @@
+@import	url('./reset.css');
+
+body{
+	background-color: #F0F8FF;
+}
+
+.container{
+	max-width: 85%;
+	background-color: #48D1CC;
+	padding: 20px;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 190px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 10%;
+	margin: 0px 20px;
+}
+
+img:hover{
+	width: 220px;
+	height: 180px;
+	align-items: center;
+}
+
+a.one:link {text-decoration: none; color: red;}
+a.one:visited {text-decoration: none; color: red;}
+a.one:hover {text-decoration: underline; color: red;}
+a.one:active {text-decoration: underline; color: red;}
+
+a.two:link {text-decoration: none; color: yellow;}
+a.two:visited {text-decoration: none; color: yellow;}
+a.two:hover {text-decoration: underline;color: yellow;}
+a.two:active {text-decoration: underline;color: yellow;}
+
+
+a.three:link {text-decoration: none; color: green;}
+a.three:visited {text-decoration: none; color: green;}
+a.three:hover {text-decoration: underline;color: green;}
+a.three:active {text-decoration: underline;color: green;}
+
